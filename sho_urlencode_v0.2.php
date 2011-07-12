@@ -12,7 +12,7 @@ $plugin['name'] = 'sho_urlencode';
 // 1 = Plugin help is in raw HTML.  Not recommended.
 # $plugin['allow_html_help'] = 1;
 
-$plugin['version'] = '0.1';
+$plugin['version'] = '0.2';
 $plugin['author'] = 'Stephan Hochhaus';
 $plugin['author_uri'] = 'http://yauh.de';
 $plugin['description'] = 'Simple plugin to perform URL encoding that works with the Facebook Like button';
@@ -35,14 +35,26 @@ if (!defined('txpinterface'))
 
 # --- BEGIN PLUGIN CODE ---
 function sho_urlencode ($atts, $thing) {
+	return trim(urlencode(parse($thing)));
+}
+
+function sho_urldecode ($atts, $thing) {
+	return trim(urldecode(parse($thing)));
+}
+
+function sho_rawurlencode ($atts, $thing) {
 	return trim(rawurlencode(parse($thing)));
+}
+
+function sho_rawurldecode ($atts, $thing) {
+	return trim(rawurldecode(parse($thing)));
 }
 # --- END PLUGIN CODE ---
 if (0) {
 ?>
 <!--
 # --- BEGIN PLUGIN HELP ---
-<h4>Performs the php function <em>rawurlencode</em> on its input</h4>
+<h4>Performs the php functions for URL en- and decoding on its input</h4>
 
     <p>Usage:</p>
 
@@ -51,6 +63,16 @@ if (0) {
 <p> Example</p>
 
 <p><code>&lt;sho_urlencode&gt;&lt;/txp:permlink /&gt;&lt;/txp:sho_urlencode&gt;</code></p>
+
+<p>Reference</p>
+
+<p>The following tags can be used when this plugin is enabled:</p>
+<ul>
+<li><code>&lt;sho_urlencode&gt;</code></li>
+<li><code>&lt;sho_urldecode&gt;</code></li>
+<li><code>&lt;sho_rawurlencode&gt;</code></li>
+<li><code>&lt;sho_rawurldecode&gt;</code></li>
+</ul>
 # --- END PLUGIN HELP ---
 -->
 <?php
