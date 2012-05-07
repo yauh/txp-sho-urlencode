@@ -1,0 +1,40 @@
+# Name: sho_urlencode v0.3 
+# Type: Public side plugin
+# Simple plugin to perform URL encoding that works with the Facebook Like button
+# Author: Stephan Hochhaus
+# URL: http://yauh.de
+# Recommended load order: 5
+
+# .....................................................................
+# This is a plugin for Textpattern - http://textpattern.com/
+# To install: textpattern > admin > plugins
+# Paste the following text into the 'Install plugin' box:
+# .....................................................................
+
+YToxMTp7czo0OiJuYW1lIjtzOjEzOiJzaG9fdXJsZW5jb2RlIjtzOjY6ImF1dGhvciI7czox
+NjoiU3RlcGhhbiBIb2NoaGF1cyI7czoxMDoiYXV0aG9yX3VyaSI7czoxNDoiaHR0cDovL3lh
+dWguZGUiO3M6NzoidmVyc2lvbiI7czozOiIwLjMiO3M6MTE6ImRlc2NyaXB0aW9uIjtzOjc4
+OiJTaW1wbGUgcGx1Z2luIHRvIHBlcmZvcm0gVVJMIGVuY29kaW5nIHRoYXQgd29ya3Mgd2l0
+aCB0aGUgRmFjZWJvb2sgTGlrZSBidXR0b24iO3M6NDoiY29kZSI7czozNjA6ImZ1bmN0aW9u
+IHNob191cmxlbmNvZGUgKCRhdHRzLCAkdGhpbmcpIHsNCglyZXR1cm4gdHJpbSh1cmxlbmNv
+ZGUocGFyc2UoJHRoaW5nKSkpOw0KfQ0KDQpmdW5jdGlvbiBzaG9fdXJsZGVjb2RlICgkYXR0
+cywgJHRoaW5nKSB7DQoJcmV0dXJuIHRyaW0odXJsZGVjb2RlKHBhcnNlKCR0aGluZykpKTsN
+Cn0NCg0KZnVuY3Rpb24gc2hvX3Jhd3VybGVuY29kZSAoJGF0dHMsICR0aGluZykgew0KCXJl
+dHVybiB0cmltKHJhd3VybGVuY29kZShwYXJzZSgkdGhpbmcpKSk7DQp9DQoNCmZ1bmN0aW9u
+IHNob19yYXd1cmxkZWNvZGUgKCRhdHRzLCAkdGhpbmcpIHsNCglyZXR1cm4gdHJpbShyYXd1
+cmxkZWNvZGUocGFyc2UoJHRoaW5nKSkpOw0KfSI7czo0OiJ0eXBlIjtzOjE6IjAiO3M6NToi
+b3JkZXIiO3M6MToiNSI7czo1OiJmbGFncyI7czoxOiIwIjtzOjQ6ImhlbHAiO3M6NjU3OiI8
+aDQ+UGVyZm9ybXMgdGhlIHBocCBmdW5jdGlvbnMgZm9yIFVSTCBlbi0gYW5kIGRlY29kaW5n
+IG9uIGl0cyBpbnB1dDwvaDQ+CgogICAgPHA+VXNhZ2U6PC9wPgoKICAgIDxwPlN1cnJvdW5k
+IGEgVVJMLCBlaXRoZXIgaW4gYSBmb3JtIG9yIGluIGEgcGFnZSB0ZW1wbGF0ZSwgd2l0aCA8
+Y29kZT4mbHQ7dHhwOnNob191cmxlbmNvZGUmZ3Q7PC9jb2RlPiBhbmQgPGNvZGU+Jmx0Oy90
+eHA6c2hvX3VybGVuY29kZSZndDs8L2NvZGU+LjwvcD4KCjxwPiBFeGFtcGxlPC9wPgoKPHA+
+PGNvZGU+Jmx0O3R4cDpzaG9fdXJsZW5jb2RlJmd0OyZsdDsvdHhwOnBlcm1saW5rIC8mZ3Q7
+Jmx0Oy90eHA6c2hvX3VybGVuY29kZSZndDs8L2NvZGU+PC9wPgoKPHA+UmVmZXJlbmNlPC9w
+PgoKPHA+VGhlIGZvbGxvd2luZyB0YWdzIGNhbiBiZSB1c2VkIHdoZW4gdGhpcyBwbHVnaW4g
+aXMgZW5hYmxlZDo8L3A+Cjx1bD4KPGxpPjxjb2RlPiZsdDt0eHA6c2hvX3VybGVuY29kZSZn
+dDs8L2NvZGU+PC9saT4KPGxpPjxjb2RlPiZsdDt0eHA6c2hvX3VybGRlY29kZSZndDs8L2Nv
+ZGU+PC9saT4KPGxpPjxjb2RlPiZsdDt0eHA6c2hvX3Jhd3VybGVuY29kZSZndDs8L2NvZGU+
+PC9saT4KPGxpPjxjb2RlPiZsdDt0eHA6c2hvX3Jhd3VybGRlY29kZSZndDs8L2NvZGU+PC9s
+aT4KPC91bD4iO3M6MzoibWQ1IjtzOjMyOiIwY2U0MTI0ZjUxNmM2ZTJkNzBmMWU3M2JhYWRl
+MmMwZCI7fQ==
